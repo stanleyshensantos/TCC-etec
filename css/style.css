@@ -1,0 +1,160 @@
+
+
+
+.TemaBaner	{		
+       background-image: url(../img/ori2.jfif);
+       background-size: cover; 
+       background-position: center;
+       color: #fff;
+       
+} 
+.temaContato{
+       margin-top: 15px;
+       background-image: url(../img/ori2.jfif);
+       background-size: cover; 
+       background-position: center;
+       color: #fff;
+
+}
+.temaContato #message{
+       height: 220px;
+}
+
+.social a[href='http://facebook.com/betterimages'] {		
+       background: url(../img/icone-face.png);		
+       background-size: 36px 36px; 
+}
+.social a[href='http://twitter.com/betterimages'] {		
+       background: url(../img/icone-twitter.png);		
+       background-size: 36px 36px; 
+}
+.social a[href='http://instagram.com/betterimages'] {		
+       background: url(../img/icone-insta.png);		
+       background-size: 36px 36px; 
+}
+
+
+.social a {	 
+       display: block;		
+       width:	36px;		
+       height: 36px;		
+       text-indent: -9999px;
+}
+.social li {
+       display: inline-block;	
+        margin-left:	1em;
+ } 
+
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+       vertical-align: top;
+       margin-bottom: 5px;
+}
+
+.grupo-radio .radio:first-child {
+       margin-top: 0;
+       
+}
+.about-section {
+       padding-top: 10rem;
+       background-image:url(../img/sobrenos.jpg);
+       height: 30em;
+     }
+     
+     .about-section p {
+       margin-bottom: 5rem;
+     }
+     
+
+.team-member {
+       margin-bottom: 50px;
+       text-align: center;
+     }
+     
+     .team-member img {
+       width: 225px;
+       height: 225px;
+       border: 7px solid #fff;
+     }
+     
+     .team-member h4 {
+       margin-top: 25px;
+       margin-bottom: 0;
+       text-transform: none;
+     }
+     
+     .team-member p {
+       margin-top: 0;
+     }
+
+
+  
+@media only screen and (min-width: 1024px){
+ 
+  
+       .container .carousel-principal{
+            
+              height: 100%;   
+            
+       }
+
+       .carousel1{
+              
+              position: relative;
+              width: 65%;
+              height: 100%; 
+              display: inline-block;
+              overflow: hidden;
+              margin-bottom: 5px;
+              
+       }
+       .carousel1 img{
+              height: 25.6em;
+       }
+
+       
+       .carousel-secundary{
+            
+        max-width: 34.5%;
+        height: 100%;
+        display: inline-block;
+        float: right;
+        margin-bottom: 7px; 
+        overflow: hidden;
+       }
+
+       .carousel2{
+               
+              margin-bottom: 4px;
+              height: 100%;
+              overflow: hidden;
+              
+       }
+       .carousel2 img{
+               
+              height: 12.7em;
+              
+       }
+  
+}
+
+
+
+@media only screen and (max-width: 1023px){
+
+       .carousel-item {
+              padding: 7px;
+       }
+
+       .carousel1 img{
+              height: 20em;
+       }
+
+       .carousel2 img{
+               
+              height: 20em;
+              
+       }
+}
